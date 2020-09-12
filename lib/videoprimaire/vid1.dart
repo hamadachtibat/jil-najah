@@ -41,7 +41,7 @@ class _vid1State extends State<vid1> {
                 itemBuilder: (BuildContext context, int index) =>
                     Container(
                       width: double.infinity,
-                      height: 400,
+                      height: 300,
                       alignment: Alignment.center,
                       child: Container(
                           key: new PageStorageKey(

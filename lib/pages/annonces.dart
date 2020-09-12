@@ -13,9 +13,10 @@ class Annonce extends StatefulWidget {
 
 class _AnnonceState extends State<Annonce> {
   bool isteacher=false;
+
   Future getannonce()async{
     var firestore =Firestore.instance;
-    QuerySnapshot qn= await firestore.collection("annonce").getDocuments();
+    QuerySnapshot qn= await firestore.collection("annonces").getDocuments();
     return qn.documents;
   }
   @override
@@ -44,6 +45,7 @@ class _AnnonceState extends State<Annonce> {
         SingleChildScrollView(
           child: Column(
             children: [
+              SizedBox(height: 30,),
               FutureBuilder(
                   future: getannonce(),
                   builder: (context,snapshot) {
@@ -94,8 +96,11 @@ class _AnnonceState extends State<Annonce> {
                     return uploadannonce();
                   },
                   closedBuilder: (context,VoidCallback openContainer){
-                    return  FloatingActionButton(
+                    return FloatingActionButton(
                         backgroundColor: Colors.amberAccent,
+                        child: Icon(Icons.add,
+                        size: 40,
+                        color: Colors.black,),
 
                         onPressed: openContainer);
                   },
