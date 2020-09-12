@@ -72,7 +72,8 @@ class _pri5cState extends State<pri5c> {
           backgroundColor: Colors.amber,
           title: Text("Matiers",
             style: TextStyle(
-                fontSize: 25
+                fontSize: 25,
+                color: Colors.black
             ),),
           centerTitle: true,
           bottom: TabBar(
@@ -81,29 +82,34 @@ class _pri5cState extends State<pri5c> {
             tabs: <Widget>[
               Text("Math",
                 style: TextStyle(
-                    fontSize: 25
+                    fontSize: 25,
+                    color: Colors.black
                 ),
               ),
               Text("Activié scientifique",
                 style: TextStyle(
-                    fontSize: 25
+                    fontSize: 25,
+                    color: Colors.black
                 ),),
               Text("Arabe",style: TextStyle(
                   fontSize: 25
               ),),
               Text("Education islamique",
                 style: TextStyle(
-                    fontSize: 25
+                    fontSize: 25,
+                    color: Colors.black
                 ),
               ),
               Text("Education Artistique",
                 style: TextStyle(
-                    fontSize: 25
+                    fontSize: 25,
+                    color: Colors.black
                 ),
               ),
               Text("Francais",
                 style: TextStyle(
-                    fontSize: 25
+                    fontSize: 25,
+                    color: Colors.black
                 ),
               ),
             ],

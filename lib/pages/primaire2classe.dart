@@ -83,7 +83,8 @@ class _pri2cState extends State<pri2c> {
             tabs: <Widget>[
               Text("Math",
                 style: TextStyle(
-                    fontSize: 25
+                    fontSize: 25,
+                    color: Colors.black
                 ),
               ),
               Text("Activié scientifique",

@@ -93,7 +93,8 @@ class _pri3cState extends State<pri3c> {
                     color: Colors.black
                 ),),
               Text("Arabe",style: TextStyle(
-                  fontSize: 25
+                  fontSize: 25,
+                  color: Colors.black
               ),),
               Text("Education islamique",
                 style: TextStyle(

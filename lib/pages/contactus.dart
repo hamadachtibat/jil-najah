@@ -58,6 +58,21 @@ class ContactPage extends StatelessWidget {
             Card(
               margin: EdgeInsets.symmetric(horizontal: 8) ,
               child: ListTile(
+                leading: Icon(Icons.phone,
+                  color: Colors.pink,
+                ),
+                title: Text(" +212 539 32 21 99 ",
+
+                ),
+
+              ),
+              elevation: 2,
+            ),
+            SizedBox(height: 20,),
+
+            Card(
+              margin: EdgeInsets.symmetric(horizontal: 8) ,
+              child: ListTile(
                 leading: Icon(Icons.email,
                   color: Colors.pink,
                 ),
