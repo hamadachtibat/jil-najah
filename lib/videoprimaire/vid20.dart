@@ -3,6 +3,8 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:jilnajah/services/auth.dart';
+import 'package:provider/provider.dart';
 import 'package:uuid/uuid.dart';
 import 'package:video_player/video_player.dart';
 
@@ -13,12 +15,19 @@ class vid20 extends StatefulWidget {
 }
 
 class _vid20State extends State<vid20> {
-
+ bool isteacher=false;
   final fb = FirebaseDatabase.instance.reference().child("Video20");
   List<String>  itemList=new List();
 
   @override
   Widget build(BuildContext context) {
+    currentuser _currentuser = Provider.of<currentuser>(context ,listen:false );
+    if (_currentuser.getcurrentuser.isteacher=='true') {
+      setState(() {
+        isteacher=true;
+      });
+
+    }
     return Scaffold(
       appBar: AppBar(
         title:Text("les Videos") ,
@@ -62,15 +71,18 @@ class _vid20State extends State<vid20> {
           ),
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: (){
-          uploadToStorage();
-        },
-        backgroundColor: Colors.amber,
-        child: Icon(
-          Icons.add,
-          size: 40,
-          color: Colors.black,
+      floatingActionButton: Visibility(
+        visible: isteacher,
+        child: FloatingActionButton(
+          onPressed: (){
+            uploadToStorage();
+          },
+          backgroundColor: Colors.amber,
+          child: Icon(
+            Icons.add,
+            size: 40,
+            color: Colors.black,
+          ),
         ),
       ),
     );
