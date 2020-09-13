@@ -717,7 +717,7 @@ class Crudmethods {
     });
   }
   Future<void> Addexo2pm(lessondata) async {
-    Firestore.instance.collection("exercices1pm").add(lessondata).catchError((e) {
+    Firestore.instance.collection("exercices2pm").add(lessondata).catchError((e) {
       print('error');
     });
   }
