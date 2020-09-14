@@ -46,12 +46,12 @@ class _lesson2cmState extends State<lesson2cm> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -195,12 +195,12 @@ class _lesson2cphyState extends State<lesson2cphy> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -351,12 +351,12 @@ class _lesson2csvtState extends State<lesson2csvt> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25),),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -511,12 +511,12 @@ class _lesson2cfrState extends State<lesson2cfr> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -667,12 +667,12 @@ class _lesson2carbState extends State<lesson2carb> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25),),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -834,12 +834,12 @@ class _lesson2ceiState extends State<lesson2cei> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25),),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -1001,12 +1001,12 @@ class _lesson2chgState extends State<lesson2chg> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25),),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -1168,12 +1168,12 @@ class _lesson2cengState extends State<lesson2ceng> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25),),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(

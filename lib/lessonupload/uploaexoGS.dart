@@ -45,12 +45,12 @@ class _exo8pmState extends State<exo8pm> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -194,12 +194,12 @@ class _uexo8pacState extends State<uexo8pac> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -343,12 +343,12 @@ class _uexo8parState extends State<uexo8par> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -492,12 +492,12 @@ class _uexo8peiState extends State<uexo8pei> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -641,12 +641,12 @@ class _uexo8peaState extends State<uexo8pea> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -790,12 +790,12 @@ class _uexo8pfrState extends State<uexo8pfr> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -939,12 +939,12 @@ class _uexo8phgState extends State<uexo8phg> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -1088,12 +1088,12 @@ class _uexo8penState extends State<uexo8pen> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(

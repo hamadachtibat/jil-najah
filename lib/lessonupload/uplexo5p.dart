@@ -45,12 +45,12 @@ class _exo5pmState extends State<exo5pm> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -194,12 +194,12 @@ class _uexo5pacState extends State<uexo5pac> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -343,12 +343,12 @@ class _uexo5parState extends State<uexo5par> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -492,12 +492,12 @@ class _uexo5peiState extends State<uexo5pei> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -641,12 +641,12 @@ class _uexo5peaState extends State<uexo5pea> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -790,12 +790,12 @@ class _uexo5pfrState extends State<uexo5pfr> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(

@@ -45,12 +45,12 @@ class _lesson1arabeState extends State<lesson1arabe> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -194,12 +194,12 @@ class _lesson1eduisState extends State<lesson1eduis> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -343,12 +343,12 @@ class _lesson1eduarState extends State<lesson1eduar> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(
@@ -492,12 +492,12 @@ class _lesson1frState extends State<lesson1fr> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(

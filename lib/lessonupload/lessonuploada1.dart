@@ -45,12 +45,12 @@ class _uploadlesson1aState extends State<uploadlesson1a> {
   Widget build(BuildContext context) {
     return
       Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.amber,
         appBar: AppBar(
           title: Text('Upload Les leçons',
             style: TextStyle(fontSize: 25), ),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.amber,
           elevation: 0,
         ),
         body: isloading ? Container(

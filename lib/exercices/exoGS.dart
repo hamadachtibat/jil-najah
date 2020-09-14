@@ -33,7 +33,7 @@ class _exo8pmathState extends State<exo8pmath> {
 
 
     return Scaffold(
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.amber,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -171,7 +171,7 @@ class _exo8pacState extends State<exo8pac> {
 
     }
     return Scaffold(
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.amber,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -309,7 +309,7 @@ class _exo8parState extends State<exo8par> {
 
     }
     return Scaffold(
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.amber,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -447,7 +447,7 @@ class _exo8peiState extends State<exo8pei> {
 
     }
     return Scaffold(
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.amber,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -585,7 +585,7 @@ class _exo8peaState extends State<exo8pea> {
 
     }
     return Scaffold(
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.amber,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -723,7 +723,7 @@ class _exo8pfrState extends State<exo8pfr> {
 
     }
     return Scaffold(
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.amber,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -861,7 +861,7 @@ class _exo8phgState extends State<exo8phg> {
 
     }
     return Scaffold(
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.amber,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -999,7 +999,7 @@ class _exo8penState extends State<exo8pen> {
 
     }
     return Scaffold(
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.amber,
       body: SingleChildScrollView(
         child: Column(
           children: [

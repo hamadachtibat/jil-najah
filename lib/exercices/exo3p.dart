@@ -33,7 +33,7 @@ class _exo3pmathState extends State<exo3pmath> {
 
 
     return Scaffold(
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.amber,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -171,7 +171,7 @@ class _exo3pacState extends State<exo3pac> {
 
     }
     return Scaffold(
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.amber,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -309,7 +309,7 @@ class _exo3parState extends State<exo3par> {
 
     }
     return Scaffold(
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.amber,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -447,7 +447,7 @@ class _exo3peiState extends State<exo3pei> {
 
     }
     return Scaffold(
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.amber,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -585,7 +585,7 @@ class _exo3peaState extends State<exo3pea> {
 
     }
     return Scaffold(
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.amber,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -723,7 +723,7 @@ class _exo3pfrState extends State<exo3pfr> {
 
     }
     return Scaffold(
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.amber,
       body: SingleChildScrollView(
         child: Column(
           children: [

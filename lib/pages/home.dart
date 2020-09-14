@@ -121,7 +121,7 @@ class _homepageState extends State<homepage> {
                 ],
               ),
             ),
-            SizedBox(height:10 ),
+            SizedBox(height:30 ),
             OpenContainer(
               openBuilder: (context,_){
                 return prescolaire();
@@ -185,7 +185,7 @@ class _homepageState extends State<homepage> {
               transitionType: ContainerTransitionType.fadeThrough,
               transitionDuration: Duration(milliseconds: 1000),
             ),
-            SizedBox(height:10 ),
+            SizedBox(height:30 ),
             OpenContainer(
               openBuilder: (context,_){
                 return primairelist();

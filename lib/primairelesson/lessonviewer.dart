@@ -34,7 +34,7 @@ class _ViewpdfState extends State<Viewpdf> {
       appBar: AppBar(
           title: Text(" votre leçon"),
           centerTitle: true,
-          backgroundColor:Colors.purple
+          backgroundColor:Colors.amber
 
       ),
       body: doc==null?loading():PDFViewer(document: doc),
